@@ -38,9 +38,11 @@ O ChamaZero integra dados de sensores IoT instalados nos terrenos (temperatura, 
 
 | Nome | RM |
 |------|----|
-| [Nome do Aluno 1] | RM XXXXX |
-| [Nome do Aluno 2] | RM XXXXX |
-| [Nome do Aluno 3] | RM XXXXX |
+| [Gabriel Miranda]   | RM 559102 |
+| [Camila Feitosa]    | RM 558808 |
+| [Gabriel Matiolli]  | RM 558963 |
+| [Gustavo Berlanga]  | RM 555298 |
+| [Stéffany Medeiros] | RM 556262 |
 
 > **Instituição:** FIAP — Faculdade de Informática e Administração Paulista
 > **Curso:** Engenharia de Software

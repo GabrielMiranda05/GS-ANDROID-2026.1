@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="app/src/main/res/drawable/ic_launcher_foreground.xml" width="80" alt="ChamaZero Logo" />
 
 # 🔥 ChamaZero
 

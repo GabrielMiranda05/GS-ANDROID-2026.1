@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.component
+package br.com.windfyr.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -14,9 +14,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import br.com.chamazero.ui.theme.GreenGradientEnd
-import br.com.chamazero.ui.theme.GreenGradientStart
-import br.com.chamazero.ui.theme.WhiteSurface
+import br.com.windfyr.ui.theme.GreenGradientEnd
+import br.com.windfyr.ui.theme.GreenGradientStart
+import br.com.windfyr.ui.theme.WhiteSurface
 
 @Composable
 fun AppLogo(size: Dp = 72.dp) {
@@ -33,7 +33,7 @@ fun AppLogo(size: Dp = 72.dp) {
     ) {
         Icon(
             imageVector = Icons.Filled.LocalFireDepartment,
-            contentDescription = "ChamaZero",
+            contentDescription = "Windfyr",
             tint = WhiteSurface,
             modifier = Modifier.size(size * 0.55f)
         )

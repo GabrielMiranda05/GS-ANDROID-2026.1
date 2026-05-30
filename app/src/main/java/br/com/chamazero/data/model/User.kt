@@ -1,4 +1,4 @@
-package br.com.chamazero.data.model
+package br.com.windfyr.data.model
 
 data class User(
     val id: Int,

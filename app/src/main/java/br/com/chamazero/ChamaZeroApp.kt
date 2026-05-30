@@ -1,9 +1,9 @@
-package br.com.chamazero
+package br.com.windfyr
 
 import android.app.Application
-import br.com.chamazero.data.remote.MockDataStore
+import br.com.windfyr.data.remote.MockDataStore
 
-class ChamaZeroApp : Application() {
+class WindfyrApp : Application() {
     override fun onCreate() {
         super.onCreate()
         MockDataStore.init(this)

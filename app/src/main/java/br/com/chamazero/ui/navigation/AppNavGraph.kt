@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.navigation
+package br.com.windfyr.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -7,17 +7,17 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import br.com.chamazero.data.remote.MockDataStore
-import br.com.chamazero.ui.screen.AddTerrainScreen
-import br.com.chamazero.ui.screen.EditProfileScreen
-import br.com.chamazero.ui.screen.EditTerrainScreen
-import br.com.chamazero.ui.screen.HomeScreen
-import br.com.chamazero.ui.screen.LoginScreen
-import br.com.chamazero.ui.screen.ProfileScreen
-import br.com.chamazero.ui.screen.RegisterScreen
-import br.com.chamazero.ui.viewmodel.AuthViewModel
-import br.com.chamazero.ui.viewmodel.ProfileViewModel
-import br.com.chamazero.ui.viewmodel.TerrainViewModel
+import br.com.windfyr.data.remote.MockDataStore
+import br.com.windfyr.ui.screen.AddTerrainScreen
+import br.com.windfyr.ui.screen.EditProfileScreen
+import br.com.windfyr.ui.screen.EditTerrainScreen
+import br.com.windfyr.ui.screen.HomeScreen
+import br.com.windfyr.ui.screen.LoginScreen
+import br.com.windfyr.ui.screen.ProfileScreen
+import br.com.windfyr.ui.screen.RegisterScreen
+import br.com.windfyr.ui.viewmodel.AuthViewModel
+import br.com.windfyr.ui.viewmodel.ProfileViewModel
+import br.com.windfyr.ui.viewmodel.TerrainViewModel
 
 @Composable
 fun AppNavGraph(navController: NavHostController) {

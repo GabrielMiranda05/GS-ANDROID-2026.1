@@ -1,4 +1,4 @@
-package br.com.chamazero.data.remote
+package br.com.windfyr.data.remote
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.screen
+package br.com.windfyr.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -34,19 +34,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import br.com.chamazero.ui.component.BottomNavBar
-import br.com.chamazero.ui.component.TerrainCard
-import br.com.chamazero.ui.navigation.NavRoutes
-import br.com.chamazero.ui.theme.GrayBorder
-import br.com.chamazero.ui.theme.GrayText
-import br.com.chamazero.ui.theme.GreenBackground
-import br.com.chamazero.ui.theme.GreenGradientEnd
-import br.com.chamazero.ui.theme.GreenGradientStart
-import br.com.chamazero.ui.theme.GreenPrimary
-import br.com.chamazero.ui.theme.GreenSurface
-import br.com.chamazero.ui.theme.WhiteSurface
-import br.com.chamazero.ui.viewmodel.TerrainViewModel
-import br.com.chamazero.util.Resource
+import br.com.windfyr.ui.component.BottomNavBar
+import br.com.windfyr.ui.component.TerrainCard
+import br.com.windfyr.ui.navigation.NavRoutes
+import br.com.windfyr.ui.theme.GrayBorder
+import br.com.windfyr.ui.theme.GrayText
+import br.com.windfyr.ui.theme.GreenBackground
+import br.com.windfyr.ui.theme.GreenGradientEnd
+import br.com.windfyr.ui.theme.GreenGradientStart
+import br.com.windfyr.ui.theme.GreenPrimary
+import br.com.windfyr.ui.theme.GreenSurface
+import br.com.windfyr.ui.theme.WhiteSurface
+import br.com.windfyr.ui.viewmodel.TerrainViewModel
+import br.com.windfyr.util.Resource
 
 @Composable
 fun HomeScreen(
@@ -152,7 +152,7 @@ private fun HomeTopBar() {
         }
         Spacer(modifier = Modifier.size(10.dp))
         Text(
-            text = "ChamaZero",
+            text = "Windfyr",
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold
         )

@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.screen
+package br.com.windfyr.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -40,14 +40,14 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-import br.com.chamazero.ui.component.AppButton
-import br.com.chamazero.ui.component.AppLogo
-import br.com.chamazero.ui.component.AppTextField
-import br.com.chamazero.ui.theme.GreenBackground
-import br.com.chamazero.ui.theme.GreenPrimary
-import br.com.chamazero.ui.theme.GrayText
-import br.com.chamazero.ui.viewmodel.AuthViewModel
-import br.com.chamazero.util.Resource
+import br.com.windfyr.ui.component.AppButton
+import br.com.windfyr.ui.component.AppLogo
+import br.com.windfyr.ui.component.AppTextField
+import br.com.windfyr.ui.theme.GreenBackground
+import br.com.windfyr.ui.theme.GreenPrimary
+import br.com.windfyr.ui.theme.GrayText
+import br.com.windfyr.ui.viewmodel.AuthViewModel
+import br.com.windfyr.util.Resource
 import kotlinx.coroutines.launch
 import androidx.compose.foundation.layout.Box
 

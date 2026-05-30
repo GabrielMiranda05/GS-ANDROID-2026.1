@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.navigation
+package br.com.windfyr.ui.navigation
 
 object NavRoutes {
     const val LOGIN = "login"

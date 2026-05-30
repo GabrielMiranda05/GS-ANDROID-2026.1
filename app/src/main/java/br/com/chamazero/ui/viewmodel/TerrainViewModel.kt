@@ -1,12 +1,12 @@
-package br.com.chamazero.ui.viewmodel
+package br.com.windfyr.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import br.com.chamazero.data.model.AddTerrainRequest
-import br.com.chamazero.data.model.Terrain
-import br.com.chamazero.data.remote.MockDataStore
-import br.com.chamazero.data.repository.TerrainRepository
-import br.com.chamazero.util.Resource
+import br.com.windfyr.data.model.AddTerrainRequest
+import br.com.windfyr.data.model.Terrain
+import br.com.windfyr.data.remote.MockDataStore
+import br.com.windfyr.data.repository.TerrainRepository
+import br.com.windfyr.util.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

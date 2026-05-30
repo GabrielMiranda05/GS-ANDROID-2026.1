@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.theme
+package br.com.windfyr.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

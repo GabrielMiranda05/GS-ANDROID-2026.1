@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.component
+package br.com.windfyr.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -38,16 +38,16 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import br.com.chamazero.data.model.IrrigationStatus
-import br.com.chamazero.data.model.RiskLevel
-import br.com.chamazero.data.model.Terrain
-import br.com.chamazero.ui.theme.GrayText
-import br.com.chamazero.ui.theme.GreenLight
-import br.com.chamazero.ui.theme.GreenPrimary
-import br.com.chamazero.ui.theme.GreenSurface
-import br.com.chamazero.ui.theme.OrangeRisk
-import br.com.chamazero.ui.theme.OrangeRiskLight
-import br.com.chamazero.ui.theme.WhiteSurface
+import br.com.windfyr.data.model.IrrigationStatus
+import br.com.windfyr.data.model.RiskLevel
+import br.com.windfyr.data.model.Terrain
+import br.com.windfyr.ui.theme.GrayText
+import br.com.windfyr.ui.theme.GreenLight
+import br.com.windfyr.ui.theme.GreenPrimary
+import br.com.windfyr.ui.theme.GreenSurface
+import br.com.windfyr.ui.theme.OrangeRisk
+import br.com.windfyr.ui.theme.OrangeRiskLight
+import br.com.windfyr.ui.theme.WhiteSurface
 
 @Composable
 fun TerrainCard(terrain: Terrain, onEditClick: () -> Unit = {}) {

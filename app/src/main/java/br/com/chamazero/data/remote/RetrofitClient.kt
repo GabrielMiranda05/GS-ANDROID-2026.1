@@ -1,4 +1,4 @@
-package br.com.chamazero.data.remote
+package br.com.windfyr.data.remote
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    private const val BASE_URL = "https://api.chamazero.com.br/"
+    private const val BASE_URL = "https://api.windfyr.com.br/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY

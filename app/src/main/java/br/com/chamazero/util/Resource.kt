@@ -1,4 +1,4 @@
-package br.com.chamazero.util
+package br.com.windfyr.util
 
 sealed class Resource<out T> {
     data class Success<T>(val data: T) : Resource<T>()

@@ -1,9 +1,9 @@
-package br.com.chamazero.data.repository
+package br.com.windfyr.data.repository
 
-import br.com.chamazero.data.model.UpdateProfileRequest
-import br.com.chamazero.data.model.User
-import br.com.chamazero.data.remote.RetrofitClient
-import br.com.chamazero.util.Resource
+import br.com.windfyr.data.model.UpdateProfileRequest
+import br.com.windfyr.data.model.User
+import br.com.windfyr.data.remote.RetrofitClient
+import br.com.windfyr.util.Resource
 
 class UserRepository {
 

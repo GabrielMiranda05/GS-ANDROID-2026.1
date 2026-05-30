@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="app/src/main/res/drawable/ic_launcher_foreground.xml" width="80" alt="ChamaZero Logo" />
+<img src="app/src/main/res/drawable/ic_launcher_foreground.xml" width="80" alt="Windfyr Logo" />
 
-# 🔥 ChamaZero
+# 🔥 Windfyr
 
 ### Monitoramento inteligente de terrenos para prevenção de incêndios
 
@@ -18,9 +18,9 @@
 
 ## 📋 Sobre o Projeto
 
-O **ChamaZero** é um aplicativo Android nativo desenvolvido como projeto de **Global Solution** da disciplina de Engenharia de Software da **FIAP**, turma **3ESOA** — 2026.
+O **Windfyr** é um aplicativo Android nativo desenvolvido como projeto de **Global Solution** da disciplina de Engenharia de Software da **FIAP**, turma **3ESOA** — 2026.
 
-O tema escolhido para esta edição da Global Solution foi a **utilização de Inteligência Artificial para monitorar, prevenir e reduzir incêndios em terrenos rurais**. O ChamaZero representa a camada mobile dessa solução, permitindo que produtores rurais acompanhem em tempo real as condições climáticas de seus terrenos, recebam alertas de risco de incêndio e gerenciem sistemas de irrigação inteligente.
+O tema escolhido para esta edição da Global Solution foi a **utilização de Inteligência Artificial para monitorar, prevenir e reduzir incêndios em terrenos rurais**. O Windfyr representa a camada mobile dessa solução, permitindo que produtores rurais acompanhem em tempo real as condições climáticas de seus terrenos, recebam alertas de risco de incêndio e gerenciem sistemas de irrigação inteligente.
 
 ---
 
@@ -30,7 +30,7 @@ O tema escolhido para esta edição da Global Solution foi a **utilização de I
 Incêndios em terrenos rurais causam prejuízos bilionários ao agronegócio brasileiro e impactos ambientais irreversíveis. A falta de monitoramento contínuo e a demora na detecção de condições de risco são os principais fatores que transformam focos controláveis em grandes incêndios.
 
 ### A Solução
-O ChamaZero integra dados de sensores IoT instalados nos terrenos (temperatura, umidade do ar e pressão atmosférica) com um modelo de IA que calcula em tempo real o **índice de risco de incêndio** de cada propriedade. Com base nesses dados, o sistema pode acionar automaticamente sistemas de irrigação preventiva, notificar o proprietário e sugerir ações corretivas antes que o fogo se inicie.
+O Windfyr integra dados de sensores IoT instalados nos terrenos (temperatura, umidade do ar e pressão atmosférica) com um modelo de IA que calcula em tempo real o **índice de risco de incêndio** de cada propriedade. Com base nesses dados, o sistema pode acionar automaticamente sistemas de irrigação preventiva, notificar o proprietário e sugerir ações corretivas antes que o fogo se inicie.
 
 ---
 
@@ -88,7 +88,7 @@ O projeto segue a arquitetura **MVVM (Model-View-ViewModel)** com separação cl
 
 ```
 app/
-└── src/main/java/br/com/chamazero/
+└── src/main/java/br/com/windfyr/
     ├── data/
     │   ├── model/          # Data classes (entidades de domínio)
     │   ├── remote/         # Retrofit, MockInterceptor, MockDataStore
@@ -100,7 +100,7 @@ app/
     │   ├── theme/          # Cores, tipografia e tema Material3
     │   └── viewmodel/      # ViewModels (AuthViewModel, TerrainViewModel, ProfileViewModel)
     ├── util/               # Classes utilitárias (Resource sealed class)
-    ├── ChamaZeroApp.kt     # Application class
+    ├── WindfyrApp.kt       # Application class
     └── MainActivity.kt     # Entry point
 ```
 
@@ -155,8 +155,8 @@ Como o backend de IA ainda está em desenvolvimento, o app utiliza uma camada de
 
 | E-mail | Senha |
 |--------|-------|
-| `joao.pereira@chamazero.com.br` | `123456` |
-| `maria.silva@chamazero.com.br` | `123456` |
+| `joao.pereira@windfyr.com.br` | `123456` |
+| `maria.silva@windfyr.com.br` | `123456` |
 
 ---
 
@@ -172,7 +172,7 @@ Como o backend de IA ainda está em desenvolvimento, o app utiliza uma camada de
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/[seu-usuario]/chamazero-android.git
+git clone https://github.com/[seu-usuario]/windfyr-android.git
 
 # 2. Abra no Android Studio
 # File > Open > selecione a pasta do projeto

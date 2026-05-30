@@ -1,9 +1,9 @@
-package br.com.chamazero.data.repository
+package br.com.windfyr.data.repository
 
-import br.com.chamazero.data.model.AddTerrainRequest
-import br.com.chamazero.data.model.Terrain
-import br.com.chamazero.data.remote.RetrofitClient
-import br.com.chamazero.util.Resource
+import br.com.windfyr.data.model.AddTerrainRequest
+import br.com.windfyr.data.model.Terrain
+import br.com.windfyr.data.remote.RetrofitClient
+import br.com.windfyr.util.Resource
 
 class TerrainRepository {
 

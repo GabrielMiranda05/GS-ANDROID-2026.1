@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.component
+package br.com.windfyr.ui.component
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,10 +12,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
-import br.com.chamazero.ui.theme.GrayBorder
-import br.com.chamazero.ui.theme.GreenPrimary
-import br.com.chamazero.ui.theme.GreenSurface
-import br.com.chamazero.ui.theme.WhiteSurface
+import br.com.windfyr.ui.theme.GrayBorder
+import br.com.windfyr.ui.theme.GreenPrimary
+import br.com.windfyr.ui.theme.GreenSurface
+import br.com.windfyr.ui.theme.WhiteSurface
 
 @Composable
 fun AppTextField(

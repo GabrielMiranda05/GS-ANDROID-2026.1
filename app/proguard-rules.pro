@@ -1,1 +1,1 @@
--keep class br.com.chamazero.data.model.** { *; }
+-keep class br.com.windfyr.data.model.** { *; }

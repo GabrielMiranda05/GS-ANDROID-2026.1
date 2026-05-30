@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "br.com.chamazero"
+    namespace = "br.com.windfyr"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "br.com.chamazero"
+        applicationId = "br.com.windfyr"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

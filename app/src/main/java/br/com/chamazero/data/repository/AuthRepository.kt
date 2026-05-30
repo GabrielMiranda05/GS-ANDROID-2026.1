@@ -1,10 +1,10 @@
-package br.com.chamazero.data.repository
+package br.com.windfyr.data.repository
 
-import br.com.chamazero.data.model.AuthResponse
-import br.com.chamazero.data.model.LoginRequest
-import br.com.chamazero.data.model.RegisterRequest
-import br.com.chamazero.data.remote.RetrofitClient
-import br.com.chamazero.util.Resource
+import br.com.windfyr.data.model.AuthResponse
+import br.com.windfyr.data.model.LoginRequest
+import br.com.windfyr.data.model.RegisterRequest
+import br.com.windfyr.data.remote.RetrofitClient
+import br.com.windfyr.util.Resource
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ChamaZero</string>
-    <style name="Theme.ChamaZero" parent="android:Theme.Material.Light.NoActionBar">
+    <string name="app_name">Windfyr</string>
+    <style name="Theme.Windfyr" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">#F0F7F0</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">#FFFFFF</item>

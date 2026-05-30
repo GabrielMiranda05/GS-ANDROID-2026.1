@@ -1,12 +1,12 @@
-package br.com.chamazero.data.remote
+package br.com.windfyr.data.remote
 
-import br.com.chamazero.data.model.AddTerrainRequest
-import br.com.chamazero.data.model.AuthResponse
-import br.com.chamazero.data.model.LoginRequest
-import br.com.chamazero.data.model.RegisterRequest
-import br.com.chamazero.data.model.Terrain
-import br.com.chamazero.data.model.UpdateProfileRequest
-import br.com.chamazero.data.model.User
+import br.com.windfyr.data.model.AddTerrainRequest
+import br.com.windfyr.data.model.AuthResponse
+import br.com.windfyr.data.model.LoginRequest
+import br.com.windfyr.data.model.RegisterRequest
+import br.com.windfyr.data.model.Terrain
+import br.com.windfyr.data.model.UpdateProfileRequest
+import br.com.windfyr.data.model.User
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET

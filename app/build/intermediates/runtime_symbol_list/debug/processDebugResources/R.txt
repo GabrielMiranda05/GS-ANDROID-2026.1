@@ -281,7 +281,7 @@ int style TextAppearance_Compat_Notification_Info 0x7f0a0004
 int style TextAppearance_Compat_Notification_Line2 0x7f0a0005
 int style TextAppearance_Compat_Notification_Time 0x7f0a0006
 int style TextAppearance_Compat_Notification_Title 0x7f0a0007
-int style Theme_ChamaZero 0x7f0a0008
+int style Theme_Windfyr 0x7f0a0008
 int style Widget_Compat_NotificationActionContainer 0x7f0a0009
 int style Widget_Compat_NotificationActionText 0x7f0a000a
 int[] styleable ActivityNavigator { 0x01010003, 0x7f010000, 0x7f010003, 0x7f010004, 0x7f010024 }

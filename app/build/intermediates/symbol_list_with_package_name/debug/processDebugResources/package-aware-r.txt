@@ -1,4 +1,4 @@
-br.com.chamazero
+br.com.windfyr
 attr action
 attr alpha
 attr argType
@@ -282,7 +282,7 @@ style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
-style Theme_ChamaZero
+style Theme_Windfyr
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 styleable ActivityNavigator android_name action data dataPattern targetPackage

@@ -1,10 +1,10 @@
-package br.com.chamazero.ui.viewmodel
+package br.com.windfyr.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import br.com.chamazero.data.model.User
-import br.com.chamazero.data.repository.UserRepository
-import br.com.chamazero.util.Resource
+import br.com.windfyr.data.model.User
+import br.com.windfyr.data.repository.UserRepository
+import br.com.windfyr.util.Resource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

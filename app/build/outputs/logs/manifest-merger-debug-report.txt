@@ -104,17 +104,17 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\qwerl\.gradle\cach
 	android:allowBackup
 		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:13:9-45
 	android:name
-		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:7:9-37
-activity#br.com.chamazero.MainActivity
+		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:7:9-35
+activity#br.com.windfyr.MainActivity
 ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:14:9-23:20
 	android:label
 		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:17:13-45
 	android:exported
 		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:16:13-36
 	android:theme
-		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:18:13-51
+		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:18:13-49
 	android:name
 		ADDED from C:\Users\qwerl\Downloads\GS-ANDROID-2026.1\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -289,7 +289,7 @@ ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\trans
 		ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-permission#br.com.chamazero.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#br.com.windfyr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
@@ -299,7 +299,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-uses-permission#br.com.chamazero.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#br.com.windfyr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\qwerl\.gradle\caches\9.0.0\transforms\50d8d6b675321de913f97f7d1ec9ea10\transformed\core-1.13.1\AndroidManifest.xml:26:22-94

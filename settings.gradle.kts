@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ChamaZero"
+rootProject.name = "Windfyr"
 include(":app")

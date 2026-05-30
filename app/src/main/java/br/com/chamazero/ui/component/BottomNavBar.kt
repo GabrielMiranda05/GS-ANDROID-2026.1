@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.component
+package br.com.windfyr.ui.component
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.navigationBars
@@ -13,10 +13,10 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import br.com.chamazero.ui.navigation.NavRoutes
-import br.com.chamazero.ui.theme.GreenPrimary
-import br.com.chamazero.ui.theme.GrayText
-import br.com.chamazero.ui.theme.WhiteSurface
+import br.com.windfyr.ui.navigation.NavRoutes
+import br.com.windfyr.ui.theme.GreenPrimary
+import br.com.windfyr.ui.theme.GrayText
+import br.com.windfyr.ui.theme.WhiteSurface
 
 @Composable
 fun BottomNavBar(

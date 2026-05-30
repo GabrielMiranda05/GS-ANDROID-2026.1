@@ -1,4 +1,4 @@
-package br.com.chamazero.ui.theme
+package br.com.windfyr.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
@@ -20,7 +20,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun ChamaZeroTheme(content: @Composable () -> Unit) {
+fun WindfyrTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = LightColorScheme,
         typography = Typography,
